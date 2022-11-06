@@ -9,14 +9,23 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="index.html">
 <style>
-    /* a{
-        text-decoration: none;
-    } */
+ a{
+  text-decoration: none;
+ }
     /* a:hover{
         text-decoration: underline;
         color: orangered;
         font-size: 18px;
     } */
+.padding-form{
+  padding: 14px 30%;
+}
+    .padding{
+padding: 14px 67%;
+    }
+   .card-list{
+    padding: 14px 120%;
+   }
 </style>
   </head>
   <body>
@@ -180,43 +189,37 @@
    
 </div>
         <div class="col-2  d-none d-lg-block ">
-          <input class="form-control"  placeholder="Type to search...">
-          <a href=""><button type="button" class="btn btn-success mt-3">Success</button></a>
+       <div class="mt-5 ps-5">
+   <input class="padding-form" type="Search" placeholder="enter your search"required>
+        <a href=""><button type="button" class="btn btn-outline-danger padding mt-3">Search</button></a>
+       </div>
           <div class="col-2  d-none d-lg-block ">
-            <h5>card </h5>
-         <div>
-         <div>
-          <a href=""><button type="button" class="btn btn-success mt-3">Success</button></a>
-         </div>
-         <div>
-          <a href=""><button type="button" class="btn btn-success mt-3">Success</button></a>
-         </div>
-         <div>
-          <a href=""><button type="button" class="btn btn-success mt-3">Success</button></a>
-         </div>
-         <div>
-          <a href=""><button type="button" class="btn btn-success mt-3">Success</button></a>
-         </div>
-         <div>
-          <a href=""><button type="button" class="btn btn-success mt-3">Success</button></a>
-         </div>
-         <div>
-          <a href=""><button type="button" class="btn btn-success mt-3">Success</button></a>
-         </div>
-          
-         </div>
-      
+            <h5 class="ps-5 mt-5">Category</h5>
+            <div class="card-list mt-3" style="width: 18rem;">
+              <ul class="list-group list-group-flush">
+                <a href=""><li class="list-group-item mt-3">An item</li></a>
+                <a href=""><li class="list-group-item mt-3">An item</li></a>
+                <a href=""><li class="list-group-item mt-3">An item</li></a>
+                <a href=""><li class="list-group-item mt-3">An item</li></a>
+                <a href=""><li class="list-group-item mt-3">An item</li></a>
+                <a href=""><li class="list-group-item mt-3">An item</li></a>
+               
+              </ul>
+            </div>
+           
          </div>
 
 
          <div class=" ps-5 mb-3" style="max-width: 540px;">
-          <div class="row g-0">
+          <h5 class="mt-5">Recent Post</h5>
+          <div class="row  g-0">
             <div class="col-md-4">
               <img src="./img/gallery/autoimg1 (1).webp" class="img-fluid rounded-start" alt="...">
             </div>
-            <div class="col-md-8">
+            <div class="col-md-12">
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
+                <a href="">From life was you fish...</a>
+                <h6 class="card-title">January 12, 2019</h6>
           
               </div>
             </div>
