@@ -91,7 +91,34 @@ body {
     outline: none
 }
 
+/* Even-btn start */
+.Even-btn  {
+  background: #fff;
+  padding: 10px 20px;
+  font-family: "Fredoka One", cursive;
+  font-size: 14px;
+  font-weight: 400;
+  border: 0;
+margin-left: 15px;
+  border: 1px solid #ed078b;
+  letter-spacing: 3px;
+  text-align: center;
+  color: #ed078b;
+  border-radius: 20px;
+  text-transform: uppercase;
+  cursor: pointer
+}
 
+.Even-btn:hover{
+  background-color: #ed078b;
+  color: #ffffff;
+}
+.Even-btn :focus {
+  outline: none;
+
+}
+
+/* Even-btn end */
 
 
 /* section  bg1*/
