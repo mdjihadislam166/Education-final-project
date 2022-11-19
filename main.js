@@ -64,7 +64,7 @@ let x = setInterval(function () {
 // team section //
 var swiper = new Swiper(".team-slider", {
   loop:true,
-  grabCursor:true,
+  // grabCursor:true,
   spaceBetween:20,
   navigation: {
       nextEl: ".swiper-button-next",
