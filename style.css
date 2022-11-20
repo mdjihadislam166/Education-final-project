@@ -3,6 +3,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
     outline: none;
     text-decoration: none;
     transition: all .2s linear;
@@ -508,7 +509,7 @@ img{
 /* team section end */
 
 
-/* <!-- testmonial section start --> */
+/* <!-- // testmonial section start // --> */
 
 .container_testmonial{
     height: 70vh;
@@ -540,9 +541,6 @@ img{
     height: 100%;
     width: 100%;
   }
-  /* .profile-text{
-    display: block;
-  } */
   .slide p {
     text-align: center;
     padding: 0 160px;
@@ -604,13 +602,7 @@ img{
     }
   }
   
-/* <!-- testmonial section end --> */
-
-
-
-
-
-
+/* <!-- // testmonial section end // --> */
 
 
 /* touchSlider start */
@@ -618,15 +610,7 @@ img{
 margin-top: 2px;
 width: 100%;
 height: 35vh;
-
 }
-/* .touch-img {
-  display: block;
-  width:190% auto;
-  height: 120vh;
-  border: 1px solid red;
-  object-fit: cover;
-} */
 .swiper-slide {
   /* Center slide text vertically */
   display: -webkit-box;
@@ -723,14 +707,6 @@ height: 35vh;
 }
 /* <!-- footer end --> */
 
-
-
-
-
-/* // LOGIN FORM CSS STSRT  */
-
-
-
 /* Style the video: 100% width and height to cover the entire window */
 #myVideo {
   position: fixed;
@@ -739,8 +715,11 @@ height: 35vh;
   min-width: 100%;
   min-height: 100%;
 }
-/*  */
+/* Style the video: 100% width and height to cover the entire window */
 
+
+
+/* // LOGIN FORM CSS STSRT  */
 .login-form
 {
 display: flex;
@@ -908,3 +887,17 @@ opacity: 0.8;
 }
 
 /* // LOGIN FORM CSS END  */
+
+
+
+
+
+/* back to top css start     */
+.scrollTop{
+  cursor: pointer;
+  text-decoration: none;
+}
+#btn-top:hover{
+background-color: #ed078b!important;
+}
+/* back to top css end  */
