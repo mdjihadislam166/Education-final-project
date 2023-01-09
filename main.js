@@ -39,7 +39,7 @@
 
 
 // counting days to new year
-const countDownDateTime = new Date(2023, 1, 1, 0, 0, 0).getTime();
+const countDownDateTime = new Date(2023, 2, 1, 0, 0, 0).getTime();
 const daysValue = document.querySelector("#days");
 const hoursValue = document.querySelector("#hours");
 const minutesValue = document.querySelector("#minutes");
@@ -99,7 +99,7 @@ var swiper = new Swiper(".testmonial-swiper", {
     },
   });
   
-/* <!-- testmonial section start --> */
+/* <!-- testmonial section end --> */
 // bvhxvjb//
 var swiper = new Swiper(".myautoSwiper", {
   spaceBetween: 0,
