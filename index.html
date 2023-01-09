@@ -17,10 +17,13 @@
    <link rel="stylesheet" href="./css/all.min.css">
    <link rel="stylesheet" href="./css/fontawesome.min.css">
    <link rel="stylesheet" href="style.css">
+
   </head>
   <body>
-
-    <section class="fixed-top ">
+    <div class="loader">
+      <img src="./img/logo/load.png" alt="Loading..." />
+  </div>
+    <section class=" ">
       <div class="header-area d-none d-sm-block ">
         <div class="container-fluid" style="background-color:#ed078b">
             <div class="row">
@@ -84,7 +87,7 @@
 <!-- nav end -->
 
 
-<div class="date-events  section-padding40  section-bg-first" style="margin-top: 9%;">
+<div class="date-events  section-padding40  section-bg-first" style="margin-top: 2%;">
   <div class="container">
       <div class="row ">
           <div class="col-lg-6 ">     
@@ -798,8 +801,14 @@
     window.scrollTo(0,0);
   }
 </script>
+<script>
+  window.addEventListener("load", function () {
+    const loader = document.querySelector(".loader");
+    loader.className += " hidden"; // class "loader hidden"
+});
+</script>
     <!-- Swiper JS -->
-    
+
     <!-- <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script> -->
     <script src="./swiper/swiper-bundle.min.js"></script>
     <!-- Swiper JS -->
