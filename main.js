@@ -124,3 +124,11 @@ var swiper = new Swiper(".myautoSwiper", {
 
 });
 
+// preloader js start //
+
+  window.addEventListener("load", function () {
+    const loader = document.querySelector(".loader");
+    loader.className += " hidden"; // class "loader hidden"
+});
+
+// preloader js End start //
